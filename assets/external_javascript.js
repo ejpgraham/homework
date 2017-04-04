@@ -1,3 +1,12 @@
+// $( () => {
+//   $('form.submit-me').on('submit', (e) => {
+//     const $form = $(e.currentTarget);
+//     const $value = $form.find('input[type=text]');
+//     const $li = $(`<li>${$value}</li>`);
+//   });
+// });
+
+
 window.onload = function() {
   (function reviewFormListener() {
     form = document.getElementById("review-form");
